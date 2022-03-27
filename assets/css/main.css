@@ -2819,7 +2819,6 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
 	}
 
 /* Main */
@@ -2896,9 +2895,6 @@ input, select, textarea {
 
 		/* Wrapper */
 
-			#wrapper {
-				padding-right: 21em;
-			}
 
 		/* Main */
 
@@ -2926,9 +2922,6 @@ input, select, textarea {
 
 		/* Wrapper */
 
-			#wrapper {
-				padding-right: 20em;
-			}
 
 	}
 
@@ -3314,3 +3307,4 @@ input, select, textarea {
 			}
 
 	}
+
