@@ -3148,7 +3148,7 @@ input, select, textarea {
 	#navigation {
 		width: 100vw;
 		height: 50px;
-		background-color: cyan;
+		background-color: #3a0b52;
 	}
 
 /* Header */
@@ -3290,7 +3290,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		/* border-top: solid 6px #f4f4f4; */
 	}
 
 		#main > section > .container {
