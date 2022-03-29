@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "local-web-server": "^5.2.0",
+    "typed.js": "^2.0.12"
+  }
+}

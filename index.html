@@ -8,52 +8,192 @@
 	<head>
 		<title>Galie Happy Birthday!</title>
 		<meta charset="utf-8" />
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/flexbox-center-container.css" media="all">
+		<link rel="stylesheet" href="assets/css/system-fonts.css" media="all">
+		<link rel="stylesheet" href="assets/css/style.css" media="all">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
 	</head>
 	<body class="is-preload">
+		<canvas id=c></canvas>
+		<canvas id="confetti"></canvas>
+		<div class="container" id="count">
+			<h1 id="head">Countdown to your birthday:</h1>
+			<ul>
+			<li><span id="day"></span>days</li>
+			<li><span id="hour"></span>hours</li>
+			<li><span id="minute"></span>minutes</li>
+			<li><span id="second"></span>seconds</li>
+			</ul>
+		</div>
+		<div id="content">
 		<!-- Wrapper -->
 			<div id="wrapper">
-
 				<!-- Main -->
 					<div id="main">
 						<!-- Navigation -->
 							<section id="navigation">
-
+								<ul>
+									<li><a href="#main">Home</a></li>
+									<li><a href="#timeline">Timeline</a></li>
+									<li><a href="#merrywrap">Happy birthday!</a></li>
+								</ul>
 							</section>
-						<!-- One -->
+						<!-- One -->					
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.png" alt="" />
+										
+									<div class="typed-container">
+										
+									<div class="typed-vert">
+										<span class="typed"></span>
 								</div>
-								<div class="container">
-									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
-									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+									</div>
 								</div>
+									
+							<section class="blank">
 							</section>
+								<div id="timeline" class="container">
+									<header class="major">
+										<h2 class="date">Youth, a time to be lived</h2>
+										
+									</header>
+<div class="timeline"> 
+  <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+    <div class="timeline__event__icon">
+      <i class="lni-burger"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      29 Mar
+    </div>
+    <div class="timeline__event__content">
+      <div class="timeline__event__title">
+        Before 18
+      </div>
+      <div class="timeline__event__description">
+        <p>Things seem to be great</p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+    <div class="timeline__event__icon">
+      <i class="lni-slim"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      30 Mar
+    </div>
+    <div class="timeline__event__content">
+      <div class="timeline__event__title">
+        18 years old
+      </div>
+      <div class="timeline__event__description">
+        <p>	Mark Six unlocked <br />
+			Free to drink wine <br />
+			More and more....</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="timeline__event animated fadeInUp timeline__event--type1">
+    <div class="timeline__event__icon">
+      <i class="lni-cake"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      31 Mar
+    </div>
+    <div class="timeline__event__content">
+      <div class="timeline__event__title">
+        New chapter?
+      </div>
+      <div class="timeline__event__description">
+        <p>Mark the start of a new journey, what to do is entirely up to you.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--
+									<div class="timeline">
+										<div class="container left">
+										  <div class="date">29 Mar</div>
+										  <i class="icon fa fa-home"></i>
+										  <div class="content">
+											<h2>Before 18</h2>
+											<p>
+												Things seem to be great
+											</p>
+										  </div>
+										</div>
+										<div class="container right">
+										  <div class="date">30 Mar</div>
+										  <i class="icon fa fa-gift"></i>
+										  <div class="content">
+											<h2>18 years old</h2>
+											<p>
+											  Mark Six unlocked <br />
+											  Free to drink wine <br />
+											  More and more....
+											</p>
+										  </div>
+										</div>
+										<div class="container left">
+										  <div class="date">31 Mar</div>
+										  <i class="icon fa fa-user"></i>
+										  <div class="content">
+											<h2>Embrace happiness</h2>
+											<p>
+											  Mark the start of a new journey, but what to do is still entirely up to you.
+											</p>
+										  </div>
+										</div>
+
+								</div>
+						-->
+					</div>
+							<section class="blank">
+							</section>
+				<section class="bg2">
+					<div id="merrywrap" class="merrywrap">
+						<canvas id="snowfall"></canvas>
+						<div class="giftbox">
+						<div class="cover">
+							<div></div>
+						</div>
+						<div class="box"></div>
+					</div>
+				</section>
+				</div>
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; All rights reserved.</li>
+								<li>&copy; Rights reserved for Galie Tsoi.</li>
 							</ul>
 						</div>
 					</section>
-
 			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+
+		<script src="assets/js/typed.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/confetti.min.js" charset="utf-8"></script>
+			<script src="assets/js/parallax.min.js"></script>
+			<script src="assets/js/index.js" charset="utf-8"></script>
 	</body>
 </html>
